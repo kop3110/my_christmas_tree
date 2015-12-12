@@ -1,0 +1,19 @@
+platos_kormou=input("Dwse to platos tou kormou tou dentrou: ")
+upsos_kormou=input("Dwse to upsos tou kormou tou dentrou: ")
+upsos_dentrou=input("Dwse to upsos tou dentrou: ")
+n=upsos_dentrou
+z = n - 1
+x = 1
+i=0
+while i<n:
+  print(' ' * z + '*' * x + ' ' * z)
+  x=x+2
+  z=z-1
+  i=i+1
+i=0  
+n=upsos_kormou
+z=upsos_dentrou-2
+x=platos_kormou
+while i<upsos_kormou:
+  print(' ' * z + '*' * x + ' ' * z)
+  i=i+1
